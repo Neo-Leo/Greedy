@@ -3,7 +3,7 @@
  * https://leetcode.com/problems/find-permutation/
  */ 
 
-public class Solution {
+public class FindPermutations {
     public void reverse(int[] arr, int start, int end) {
         int temp; 
         while(start < end){
@@ -14,6 +14,7 @@ public class Solution {
             end--;
         }
     }
+    
     public int[] findPermutation(String s) {
         if(s==null || s.length() == 0) {
             return new int[0]; 
